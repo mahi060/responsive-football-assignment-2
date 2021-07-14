@@ -5,6 +5,11 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 /* display */
 
