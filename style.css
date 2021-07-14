@@ -1,36 +1,105 @@
 /* goggle font */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-/* common styles */
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-/* displays styles */
+
+/* display */
+
 .displays{
-    height: 450px;
     background-color: #2D25A0;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    /* width: 1440px; */
+    /* height: 677px; */
 }
+
 .display-info{
-    width:485px;
+    display: flex;
+    align-items: center;
+    
 }
-.display-title{
-    font-size: 64px;
-    color: #ffffff;
+.display-details{
+    padding: 150px;
+    margin: 15px;
 }
-.button-1{
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+.display-details .button-1{
+    padding: 15px;
+    background-color: red;
+    color:white;
+}
+.button-1:hover{
+    background-color: black;
+
+}
+.display-info h1{
     color: #ffffff;
-    background-color: #E02C6D;
+    font-size: 64px
 }
 .displays img{
-    margin-top: 100px;
-    width: 500px;
-    height: 500px;
+    padding-right: 100px;
+    width: 556.01px;
+    height: 438px;
+}
+
+/* players style */
+
+.players{
+    margin: 70px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    
+}
+.player .player-image{
+    width: 300px;
+    height: 256px;
+}
+.player{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-right: 150px;
+    box-shadow: 1px 1px 10px rgb(184, 178, 178);
+}
+.player-info{
+    margin-right:0px;
+}
+/* summary */
+.summary img{
+    width: 567px;
+    height: 427px;
+}.summary-detail{
+    display: flex;
+    margin-right: 50px;
+}
+.summary-detail .sum{
+    margin: 50px;
+}
+.button-2{
+    padding: 15px;
+    background-color: red;
+    color:white; 
+}
+.button-2:hover{
+    background-color: black;
+
+}
+.sum-head{
+    font-size: 48px;
+}
+/* footer */
+footer{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer img{
+    width: 483.87px;
+}
+footer .i{
+    padding: 5px;
+    background-color: grey;
+    border-radius: 50%;
 }
